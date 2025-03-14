@@ -1,0 +1,500 @@
+   52  ls
+   53  git remote remove origin
+   54  git remote add https://github.com/CS429-F2024/jayupad-test.git
+   55  git status
+   56  git init
+   57  git remote
+   58  git status
+   59  git remote set-url --add --push origin https://github.com/CS429-F2024/jayupad-test.git
+   60  git remote add origin
+   61  cd ../
+   62  ls
+   63  git clone https://github.com/CS429-F2024/jayupad-test.git
+   64  cd jayupad-test
+   65  code .
+   66  cd ../se-lab-taylorh/
+   67  ls
+   68  bin/test-se -w 4
+   69  make
+   70  bin/test-se -w 4
+   71  git status
+   72  git status
+   73  make
+   74  bin/test-se -w 4
+   75  clean
+   76  clear
+   77  make
+   78  make clean; make
+   79  bin/test-se -w 4
+   80  bin/test-se -w 4 -v 2
+   81  git pull
+   82  git stash
+   83  git pull
+   84  git add .
+   85  make
+   86  make\
+   87  make\
+   88  make
+   89  bin/test-se -w 4 -v 2
+   90  make clean; make
+   91  bin/test-se -w 4 -v 2
+   92  make clean; make
+   93  bin/test-se -w 4 -v 2
+   94  git add .
+   95  git commit -m "hello"
+   96  git push
+   97  git add . 
+   98  git commit -m "reference pipeline stages"
+   99  git push
+  100  make
+  101  bin/test-se -w4
+  102  make
+  103  bin/test-se -w4
+  104  make
+  105  bin/test-se -w4
+  106  make
+  107  bin/test-se -w4
+  108  make
+  109  bin/test-se -w4
+  110  make
+  111  bin/test-se -w4
+  112  make
+  113  bin/test-se -w4
+  114  make
+  115  bin/test-se -w4
+  116  make
+  117  bin/test-se -w4
+  118  make
+  119  bin/test-se -w4
+  120  make
+  121  bin/test-se -w4
+  122  make
+  123  bin/test-se -w4
+  124  make
+  125  make
+  126  make
+  127  bin/test-se -w4
+  128  make
+  129  bin/test-se -w4
+  130  make
+  131  bin/test-se -w4
+  132  make
+  133  bin/test-se -w4
+  134  make
+  135  bin/test-se -w4
+  136  make
+  137  bin/test-se -w4
+  138  make
+  139  bin/test-se -w4
+  140  make
+  141  bin/test-se -w4
+  142  bin/test-se -w4
+  143  make
+  144  bin/test-se -w4
+  145  make
+  146  bin/test-se -w4
+  147  make
+  148  bin/test-se -w4
+  149  make
+  150  bin/test-se -w4
+  151  users
+  152  man wall
+  153  who
+  154  who
+  155  write anooprac "hi"
+  156  write anooprac pts/14
+  157  man write
+  158  write -n anooprac pts/14
+  159  write anooprac pts/14
+  160  sudo echo "Let's go have lunch... ok?" > pts/14
+  161  sudo echo "Let's go have lunch... ok?" > /dev/pts/14
+  162  echo "Let's go have lunch... ok?" > /dev/pts/14
+  163  ls
+  164  cd ../
+  165  lsl
+  166  ls
+  167  who
+  168  who
+  169  who
+  170  useres
+  171  users
+  172  logout
+  173  users
+  174  who
+  175  who
+  176  cd ../
+  177  ls
+  178  cd sidchat
+  179  ls
+  180  cd cs429
+  181  cd ../
+  182  ls
+  183  sidchat/cs429/c-intro/helloworld.c
+  184  ls
+  185  cd ta
+  186  ls
+  187  cd mm
+  188  ls
+  189  rm -rf MM-Lab
+  190  git clone https://github.com/CS429-Master/MM-Lab.git
+  191  cd MM-Lab
+  192  git checkout -b "S2025 Updates"
+  193  git checkout -b "s2025-updates"
+  194  git status
+  195  code .
+  196  make all
+  197  make all
+  198  runner
+  199  runner -c
+  200  runner -c traces/short1-bal.rep
+  201  runner -rc traces/short1-bal.rep
+  202  runner -c traces/short1-bal.rep
+  203  runner
+  204  make
+  205  make clean
+  206  make
+  207  make
+  208  make
+  209  make
+  210  make
+  211  make
+  212  make
+  213  make
+  214  make
+  215  cd ../
+  216  mv MM-Lab MM-Lab-Old
+  217  git clone https://github.com/CS429-F2024/MM-Lab.git
+  218  cd MM-Lab-Old/
+  219  code .
+  220  cd ../MM-Lab
+  221  git status
+  222  git checkout -b "check-heap-tester"
+  223  git add.
+  224  git add .
+  225  git commit -m "Added heap_runner and initialized mock free lists"
+  226  git push
+  227  git push --set-upstream origin check-heap-tester
+  228  git status
+  229  git branch
+  230  git
+  231  cd .git
+  232  ls
+  233  cd config
+  234  cat config
+  235  git push
+  236  git push --set-upstream origin check-heap-tester
+  237  git remote set-url origin https://github.com/CS429-Master/MM-Lab
+  238  git status
+  239  git branch
+  240  git add .
+  241  git remote set-url origin https://github.com/CS429-Master/MM-Lab.git
+  242  git status
+  243  git remote set-url origin https://github.com/CS429-Master/MM-Lab.git
+  244  git status
+  245  git remote set-url origin https://github.com/CS429-F2024/MM-Lab.git
+  246  git status
+  247  cd ../
+  248  git status
+  249  cd .git
+  250  git remote set-url origin https://github.com/CS429-Master/MM-Lab.git
+  251  cd ../
+  252  git status
+  253  git add .
+  254  git commit -m "testing.."
+  255  git push
+  256  git fetch
+  257  git checkout origin/andy-branch
+  258  git add .
+  259  git stash
+  260  git status
+  261  git checkout origin/andy-branch
+  262  git pull 
+  263  git status
+  264  git attach HEAD
+  265  git --help
+  266  git reset
+  267  git status
+  268  git branch
+  269  git checkout
+  270  git status
+  271  git checkout andy-branch
+  272  git status
+  273  git branch
+  274  git pull
+  275  git log
+  276  make
+  277  make
+  278  make
+  279  make heap_runner
+  280  ./heap_runnr
+  281  ./heap_runner
+  282  ./heap_runner
+  283  make
+  284  make heap_runner
+  285  ./heap_runner
+  286  make
+  287  make heap_runner
+  288  make heap_runner
+  289  make
+  290  make heap_runner
+  291  ./heap_runner
+  292  make heap_runner
+  293  ./heap_runner
+  294  make heap_runner
+  295  ./heap_runner
+  296  git stash
+  297  git pull
+  298  git fetch
+  299  git pull
+  300  make heap_runner
+  301  ./heap_runner
+  302  ./heap_runner
+  303  make heap_runner
+  304  ./heap_runner
+  305  make heap_runner
+  306  ./heap_runner
+  307  make heap_runner
+  308  ./heap_runner
+  309  make heap_runner
+  310  ./heap_runner
+  311  make heap_runner
+  312  ./heap_runner
+  313  make heap_runner
+  314  ./heap_runner
+  315  make heap_runner
+  316  ./heap_runner
+  317  make heap_runner
+  318  make heap_runner
+  319  ./heap_runner
+  320  make clean
+  321  make heap_runner
+  322  make heap_runner
+  323  make heap_runner
+  324  make heap_runner
+  325  make heap_runner
+  326  make heap_runner
+  327  make clean
+  328  git stash
+  329  git pull
+  330  cd ../../
+  331  mkdir ci
+  332  cd ci
+  333  git clone https://github.com/CS429-SP2025/CI-Lab.git
+  334  mv CI-Lab/ CI-Lab-Template/
+  335  cd CI-Lab-Template/
+  336  code .
+  337  cd ../
+  338  git clone https://github.com/CS429-Master/CI-Lab-Rewrite.git
+  339  cd CI-Lab-Rewrite/
+  340  code .
+  341  cd ../CI-Lab-Template/
+  342  make all
+  343  bin/ci -i testcases/week3/load.s
+  344  gdb bin/ci
+  345  make clean; make debug
+  346  gdb bin/ci
+  347  cd ../
+  348  ls
+  349  cd CI-Lab-
+  350  cd CI-Lab-Rewrite/
+  351  code .
+  352  lpr -h
+  353  lpr
+  354  lpr --help
+  355  lpr -pPr-3lab-1 print_out
+  356  lpr -Ppr-3lab-1 print_out
+  357  ls
+  358  mkdir mastery-demo
+  359  cd mastery-demo/
+  360  git clone git@github.com:XuJeff04/cs429-mastery-demo.git
+  361  code .
+  362  make tests
+  363  make clean
+  364  cd cs429-mastery-demo/
+  365  make test
+  366  make tests
+  367  make 
+  368  make 
+  369  make 
+  370  make tests
+  371  make tests
+  372  make clean
+  373  make
+  374  make clean
+  375  make tests
+  376  ls
+  377  cd ta
+  378  ls
+  379  mkdir sp2025-template
+  380  cd sp2025-template/
+  381  git clone git@github.com:CS429-SP2025/cs429-sp2025-mm-lab-mm-lab-1.git
+  382  cd cs429-sp2025-mm-lab-mm-lab-1/
+  383  code .
+  384  make
+  385  make
+  386  make
+  387  make
+  388  make all
+  389  make all
+  390  make all
+  391  runner -i traces/short1.rep
+  392  runner -r traces/short1.rep
+  393  make all
+  394  runner -r traces/short1.rep
+  395  runner -r traces/test.trace
+  396  runner -r traces/test.trace
+  397  make all
+  398  runner -r traces/test.trace
+  399  make clean
+  400  git add .
+  401  git commit -m "Added select_bin helper and free_heads definition"
+  402  git push
+  403  git add .
+  404  git commit -m "removed multiple def of free_heads"
+  405  git push
+  406  lpr -Ppr-3lab-1 print_out
+  407  cd cs439
+  408  ls
+  409  code .
+  410  history
+  411  history 495
+  412  lpr -Ppr-3lab-1 print_out
+  413  ls
+  414  cd ta
+  415  lsl
+  416  ls
+  417  cd student/
+  418  git clone
+  419  git clone git@github.com:CS429-SP2025/mm-lab-sanim14.git
+  420  cd mm-lab-sanim14/
+  421  code .
+  422  make clean
+  423  make all
+  424  ./driver.py
+  425  make
+  426  ./driver.py
+  427  gdb runner -r traces/coa.rep
+  428  make
+  429  ./driver.py
+  430  gdb runner
+  431  make debug
+  432  gdb runner
+  433  gdb runner
+  434  make runner
+  435  ./driver.py
+  436  make clean; make runner
+  437  ./driver.py
+  438  make clean; make runner
+  439  ./driver.py
+  440  cd ../../
+  441  git clone git@github.com:CS429-Master/cs429-mastery-demo.git
+  442  code .
+  443  gh --version
+  444  ls
+  445  cd cs105c
+  446  ls
+  447  mkdir test
+  448  cd test
+  449  ls
+  450  pwd
+  451  touch log.txt
+  452  ls
+  453  ls -lh
+  454  rm log.txt
+  455  ls
+  456  touch log.txt
+  457  touch log2.txt
+  458  ls
+  459  cd ../
+  460  ls
+  461  clear
+  462  rm test
+  463  ls test
+  464  rm -r test
+  465  ls test
+  466  pwd
+  467  cd ~
+  468  ls
+  469  pwd
+  470  clear
+  471  pwd
+  472  touch ~/file.txt
+  473  ls
+  474  rm file.txt
+  475  cd ../
+  476  ls
+  477  cd jau464\
+  478  cd jau464
+  479  ls
+  480  clear
+  481  touch log.txt
+  482  vim log.txt
+  483  vim log.txt
+  484  log.txt
+  485  vim log.txt
+  486  "hello" > log.txt
+  487  echo log.txt
+  488  cat log.txt
+  489  cd cs105c
+  490  code .
+  491  cd ta/
+  492  ls
+  493  git clone git@github.com:CS429-SP2025/ac-lab-jayupad.git
+  494  cd ac-lab-jayupad/
+  495  code .
+  496  git add .
+  497  git commit -m "correct hamming"
+  498  git push
+  499  cd ~
+  500  ls
+  501  pwd
+  502  cd mastery/mastery-version-a/
+  503  touch ~/.gdbinit
+  504  clear
+  505  touch something.txt
+  506  hello > something.txt
+  507  echo hello  > something.txt
+  508  echo world  > something.txt
+  509  echo hello >> something.txt
+  510  echo set history save on >> ~/.gdbinit
+  511  history
+  512  vim ~/.gdbinit
+  513  cd ~
+  514  ls -lh
+  515  ls -a
+  516  clear
+  517  make mini_ci
+  518  cd mastery/mastery-version-a/m
+  519  cd mastery/mastery-version-a/
+  520  clear
+  521  make mini_ci
+  522  make debubg
+  523  make debug
+  524  make clean
+  525  make debug
+  526  make tests
+  527  mini_ci -h
+  528  ./mini_ci testcases/basic_add.s
+  529  make clean
+  530  make debug
+  531  gdb mini_ci
+  532  make tests
+  533  gdb mini_c
+  534  gdb mini_ci
+  535  gdb mini_ci
+  536  make clean
+  537  make debug
+  538  gdb mini_ci
+  539  make clean
+  540  make tests
+  541  mini_ci_reference testcases/err_ops.s
+  542  make check
+  543  make clena
+  544  make clean
+  545  make check
+  546  ckear
+  547  clear
+  548  touch shell_log.txt
+  549* history > shell_log.txt
+  550  history
+  551  history > shell_log.txt

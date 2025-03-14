@@ -11,7 +11,18 @@ int calculate_result(struct Reader *reader) {
         if (head->tok_type != TOK_NUM) {
             // this is an operation:
             struct Token *op = head;
+            
+            if (head->next == NULL){
+                reader->had_error = true;
+                return -1;
+            }
             struct Token *val_a = head->next;
+
+
+            if (head->next->next == NULL){
+                reader->had_error = true;
+                return -1;
+            }
             struct Token *val_b = head->next->next;
 
             struct Token *new_token = malloc(sizeof(struct Token));
