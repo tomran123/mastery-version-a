@@ -1,0 +1,10 @@
+ 19  print head
+   20  print *head
+   21  print *val_a
+   22  q
+   23  show commands
+   24  touch gdb_logs.txt
+   25  a
+   26  q
+   27  show commands > gdb_logs.txt
+   28  show commands

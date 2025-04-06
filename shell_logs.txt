@@ -1,0 +1,500 @@
+   27  gdb bin/ci
+   28  cp ~suhas/stuff/test_runner .
+   29  ./test_runner week2
+   30  make clean
+   31  make debug
+   32  gdb bin/ci
+   33  make clean
+   34  cp ~suhas/stuff/test_runner .
+   35  ./test_runner week2
+   36  cp ~suhas/stuff/test_runner .
+   37  ./test_runner week2
+   38  make clean
+   39  cp ~suhas/stuff/test_runner .
+   40  ./test_runner week2
+   41  cp ~suhas/stuff/test_runner .
+   42  ./test_runner week2
+   43  cp ~suhas/stuff/test_runner .
+   44  ./test_runner week2
+   45  make clean
+   46  make debug
+   47  break parse_commands
+   48  gdb bin/ci
+   49  make clean
+   50  cp ~suhas/stuff/test_runner .
+   51  ./test_runner week2
+   52  make clean
+   53  make debug
+   54  gdb bin/ci
+   55  make clean
+   56  make debug
+   57  gdb bin/ci
+   58  make clean
+   59  make debug
+   60  gdb bin/ci
+   61  make clean
+   62  cp ~suhas/stuff/test_runner .
+   63  ./test_runner week2
+   64  make clean
+   65  make debug
+   66  gdb bin/ci
+   67  make clean
+   68  make debug
+   69  gdb bin/ci
+   70  cp ~suhas/stuff/test_runner .
+   71  ./test_runner week2
+   72  make clean
+   73  cp ~suhas/stuff/test_runner .
+   74  ./test_runner week2
+   75  cp ~suhas/stuff/test_runner .
+   76  ./test_runner week2
+   77  make clean
+   78  make debug
+   79  gdb bin/ci
+   80  ci_reference -i testcases/week2/print.s
+   81  cp ~suhas/stuff/test_runner .
+   82  ./test_runner week2
+   83  make clean
+   84  cp ~suhas/stuff/test_runner .
+   85  ./test_runner week3
+   86  make clean
+   87  cp ~suhas/stuff/test_runner .
+   88  ./test_runner week3
+   89  make clean
+   90  cp ~suhas/stuff/test_runner .
+   91  ./test_runner week3
+   92  make clean
+   93  cp ~suhas/stuff/test_runner .
+   94  ./test_runner week3
+   95  make clean
+   96  cp ~suhas/stuff/test_runner .
+   97  ./test_runner week3
+   98  make clean
+   99  make debug
+  100  gdb bin/ci
+  101  ci_reference -i testcases/week3/asr.s
+  102  make clean
+  103  make debug
+  104  gdc bin/ci
+  105  gdb bin/ci
+  106  make clean
+  107  make debug
+  108  cp ~suhas/stuff/test_runner .
+  109  ./test_runner week3
+  110  ci_reference -i testcases/week3/hello_world_nl.s
+  111  ci_reference -i testcases/week3/hello_world.s
+  112  make clean
+  113  make debug
+  114  gdb bin/ci
+  115  cp ~suhas/stuff/test_runner .
+  116  ./test_runner week3
+  117  make clean
+  118  ci_reference -i testcases/week3/load.s
+  119  make clean
+  120  ci_reference -i testcases/week3/load.s
+  121  make clean
+  122  make debug
+  123  gdb bin/ci
+  124  make clean
+  125  make debug
+  126  make clean
+  127  make debug
+  128  make clean
+  129  make debug
+  130  make clean
+  131  make debug
+  132  make clea
+  133  make clean
+  134  make debug
+  135  cp ~suhas/stuff/test_runner .
+  136  ./test_runner week3
+  137  make clean
+  138  cp ~suhas/stuff/test_runner .
+  139  ./test_runner week3
+  140  make clean
+  141  make debug
+  142  gdb bin/ci
+  143  make clean
+  144  cp ~suhas/stuff/test_runner .
+  145  ./test_runner week3
+  146  make clean
+  147  make debug
+  148  gdb bin/ci
+  149  make clean
+  150  cp ~suhas/stuff/test_runner .
+  151  ./test_runner week3
+  152  make clean
+  153  cp ~suhas/stuff/test_runner .
+  154  ./test_runner week3
+  155  cp ~suhas/stuff/test_runner .
+  156  ./test_runner week3
+  157  cp ~suhas/stuff/test_runner .
+  158  ./test_runner week3
+  159  cp ~suhas/stuff/test_runner .
+  160  ./test_runner week3
+  161  cp ~suhas/stuff/test_runner .
+  162  ./test_runner week3
+  163  make clean
+  164  make clean
+  165  cp ~suhas/stuff/test_runner .
+  166  ./test_runner week4
+  167  cp ~suhas/stuff/test_runner .
+  168  ./test_runner week4
+  169  cp ~suhas/stuff/test_runner .
+  170  ./test_runner week4
+  171  cp ~suhas/stuff/test_runner .
+  172  ./test_runner week4
+  173  cp ~suhas/stuff/test_runner .
+  174  ./test_runner week4
+  175  make clean
+  176  cp ~suhas/stuff/test_runner .
+  177  ./test_runner week4
+  178  cp ~suhas/stuff/test_runner .
+  179  ./test_runner week4
+  180  make clean
+  181  make debug
+  182  r -i testcases/week3/b.eq_err.s
+  183  gdb bin/ci
+  184  ci_reference -i testcases/week4/b.eq_err.s
+  185  make clean
+  186  make debug
+  187  gdb bin/ci
+  188  make clean
+  189  cp ~suhas/stuff/test_runner .
+  190  ./test_runner week4
+  191  make clean
+  192  make debug
+  193  gdb bin/ci
+  194  make clean
+  195  make debug
+  196  gdb bin/ci
+  197  make clean
+  198  cp ~suhas/stuff/test_runner .
+  199  ./test_runner week4
+  200  cp ~suhas/stuff/test_runner .
+  201  ./test_runner week4
+  202  ci_reference -i testcases/week4/b.eq.s
+  203  make clean
+  204  make debug
+  205  gdb bin/ci
+  206  make clean
+  207  make debug
+  208  gdb bin/ci
+  209  ci_reference -i testcases/week4/b.eq.s
+  210  cp ~suhas/stuff/test_runner .
+  211  cp ~suhas/stuff/test_runner .
+  212  ./test_runner week4
+  213  ci_reference -i testcases/week4/call.s
+  214  make clean
+  215  make debug
+  216  gdb bin/ci
+  217  make clean
+  218  make debug
+  219  gdb bin/ci
+  220  make clean
+  221  cp ~suhas/stuff/test_runner .
+  222  ./test_runner week4
+  223  make clean
+  224  make debug
+  225  gdb bin/ci
+  226  ci_reference -i testcases/week4/branch_taken.s
+  227  make clean
+  228  make debug
+  229  gdb bin/ci
+  230  make clean
+  231  make clean
+  232  make clean
+  233  make clean
+  234  make debug
+  235  make clean
+  236  cp ~suhas/stuff/test_runner .
+  237  ./test_runner week4
+  238  make clean
+  239  make debug
+  240  gdb bin/ci
+  241  cp ~suhas/stuff/test_runner .
+  242  ./test_runner week4
+  243  ci_reference -i testcases/week4/sqrt.s
+  244  make clean
+  245  ci_reference -i testcases/week4/call.s
+  246  ci_reference -i testcases/week4/sqrt.s
+  247  make clean
+  248  make debug
+  249  gdb bin/ci
+  250  ci_reference -i testcases/week4/sqrt.s
+  251  make clean
+  252  make debug
+  253  gdb bin/ci
+  254  cp ~suhas/stuff/test_runner .
+  255  ./test_runner week4
+  256  cp ~suhas/stuff/test_runner .
+  257  ./test_runner week4
+  258  make clean
+  259  cp ~suhas/stuff/test_runner .
+  260  ./test_runner week4
+  261  git clone https://github.com/CS429-SP2025/mm-lab-tomran123.git
+  262  git clone git@github.com:CS429-SP2025/mm-lab-tomran123.git
+  263  ./install.sh
+  264  chmod +x install.sh
+  265  ./install.sh
+  266  ./runner. 
+  267  make
+  268  ./runner. 
+  269  ./install.sh
+  270  runner -h
+  271  ./runner
+  272  ./runner -rucv traces/short1.rep
+  273  make clean
+  274  make 
+  275  make
+  276  make
+  277  ./runner -rucv traces/short1.rep
+  278  ./runner -rucv traces/short2.rep
+  279  ./runner -rucv traces/short2-bal.rep
+  280  ./runner -rucv traces/short1-bal.rep
+  281  ./runner -rucv traces/short2.rep
+  282  ./runner -rucv traces/short1.rep
+  283  make clean
+  284  make
+  285  ./runner -rucv traces/short1.rep
+  286  ./runner -rucv traces/short2.rep
+  287  ./runner -rucv traces/short1-bal.rep
+  288  ./runner -rucv traces/short2-bal.rep
+  289  make clean
+  290  make debug
+  291  gdb ./runner
+  292  make clean
+  293  make debug
+  294  gdb ./runner
+  295  gdb ./runner
+  296  make clean
+  297  make debug
+  298  make clean
+  299  make debug
+  300  gdb ./runner
+  301  gdb ./runner
+  302  make clean
+  303  make runner
+  304  ./runner
+  305  ./runner -h
+  306  ./runner -r
+  307  ./runner -r traces/*
+  308  make clean
+  309  make heap_runner
+  310  ./heap_runner
+  311  make clean
+  312  make performance
+  313  ./performance
+  314  ./performance traces/*
+  315  ./performance traces/*
+  316  make clean
+  317  make performance
+  318  ./performance traces/*
+  319  make clean
+  320  make gprof_performance
+  321  make clean
+  322  make all
+  323  make gprof_performance
+  324  ./gprof_performance traces/*
+  325  make clean
+  326  make runner
+  327  ./runner -r traces/*
+  328  make heap_runner
+  329  ./heap_runner
+  330  make performance
+  331  ./performance
+  332  ./runner -r traces/*
+  333  ./performance traces/*
+  334  make gprof_performance
+  335  ./gprof_performance traces/*
+  336  ./runner -u traces/*
+  337  make clean
+  338  git clone git@github.com:CS429-SP2025/shared-repo-version-g-tomran123.git
+  339  bin/a.out -t ./testcases/short1.rep
+  340  bin/a.out -t short1.rep
+  341  make debug
+  342  bin/a.out -t
+  343  bin/a.out -t ./testcases/short1.rep
+  344  bin/a.out -t ./testcases/short2.rep
+  345  bin/a.out -t ./testcases/short3.rep
+  346  bin/a.out -t ./testcases/short4.rep
+  347  bin/a.out -t ./testcases/short5.rep
+  348  ref.out -t ./testcases/short2.rep
+  349  make clean
+  350  make debug
+  351  gdb ./runner
+  352  gdb ./runner
+  353  gdb bin/main
+  354  make clean
+  355  make debug
+  356  gdb bin/main
+  357  make check
+  358  gdb bin/main
+  359  cd ..
+  360  rm -rf shared-repo-version-g-tomran123/
+  361  ls
+  362  make clea
+  363  make clean
+  364  make debug
+  365  gdb ./runner
+  366  make clean
+  367  make debug
+  368  gdb umalloc
+  369  gdb performance
+  370  make clean
+  371  make debug
+  372  gdb bin/ci
+  373  git clone git@github.com:CS429-SP2025/se-lab-michael-tom.git
+  374  git clone git@github.com:CS429-SP2025/se-lab-michael-tom.git
+  375  git pull
+  376  git pull
+  377  make clean
+  378  make 
+  379  make clean
+  380  make
+  381  make clean
+  382  make clean
+  383  make 
+  384  make clean
+  385  make
+  386  bin/test-hw -h
+  387  bin/test-hw -v
+  388  bin/test-hw
+  389  make clean
+  390  make 
+  391  bin/test-hw
+  392  bin/test-hw -h
+  393  bin/test-hw -v 1
+  394  make clean
+  395  make 
+  396  bin/test-hw
+  397  bin/test-hw -v 1
+  398  make clean
+  399  make
+  400  bin/test-hw -v 1
+  401  bin/test-hw
+  402  make clean
+  403  make
+  404  bin/test-hw
+  405  bin/test-hw -v 2
+  406  make clean
+  407  make
+  408  bin/test-hw -v 2
+  409  bin/test-hw
+  410  bin/test-hw -v 1
+  411  make clean
+  412  make
+  413  bin/test-hw
+  414  bin/test-hw -v 2
+  415  make clean
+  416  make 
+  417  bin/test-hw -v 2
+  418  git pull
+  419  git config pull.rebase false
+  420  git pull
+  421  git pull
+  422  git push
+  423  make clean
+  424  make
+  425  bin/test-hw -v 2
+  426  make clean
+  427  make all
+  428  make
+  429  make all
+  430  gdb bin/se
+  431  make clean
+  432  make 
+  433  make all
+  434  gdb bin/se
+  435  make clena
+  436  make clean
+  437  make
+  438  gdb bin.se
+  439  gdb bin/se
+  440  file testcases/hw_elts
+  441  readelf -h testcases/hw_elts
+  442  make clean
+  443  make 
+  444  gdb bin/se
+  445  ls -l testcases/hw_elts/alu_hw
+  446  make clean
+  447  make
+  448  gdb bin/test-hw
+  449  make clean
+  450  make
+  451  gdb bin/test-hw
+  452  make clean
+  453  make
+  454  gdb bin/test-hw
+  455  make clean
+  456  make 
+  457  gdb bin/test-hw
+  458  make clean
+  459  make
+  460  gdb bin/test-hw
+  461  make clean
+  462  make 
+  463  gdb bin/test-hw
+  464  make clean
+  465  make
+  466  gdb bin/test-hw
+  467  make clean
+  468  make
+  469  gdb bin/test-hw
+  470  bin/test-hw -v 2
+  471  make clean
+  472  make
+  473  bin/test-hw -v 2
+  474  make clean
+  475  make
+  476  gdb bin/test-hw
+  477  make clean
+  478  make
+  479  gdb bin/test-hw
+  480  make clean
+  481  make
+  482  gdb bin/test-hw
+  483  bin/test-hw -v 2
+  484  make clean
+  485  make 
+  486  bin/test-hw -v 2
+  487  make clean
+  488  make
+  489  bin/test-hw -v 2
+  490  make clean
+  491  make
+  492  gdb bin/test-hw
+  493  make clean
+  494  make
+  495  bin/test-hw -v 2
+  496  bin/test-hw -h
+  497  bin/test-hw -e
+  498  git push
+  499  make 
+  500  make clean
+  501  make
+  502  ./mini_ci
+  503  make check
+  504  make tests
+  505  make clean
+  506  make degbu
+  507  make debug
+  508  gdb mini_ci
+  509  make clean
+  510  make
+  511  make check
+  512  make degbu
+  513  make debug
+  514  make clean
+  515  make debug
+  516  gdb mini_ci
+  517  make clean
+  518  make check
+  519  make clean
+  520  make
+  521  make check
+  522  history
+  523  make clean
+  524  pwd
+  525  touch shell_logs.txt
+  526  history > shell_logs.txt
